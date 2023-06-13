@@ -1,0 +1,11 @@
+.video {
+  padding-top: 160px;
+  &__title {
+    font-family: "Tenor Sans";
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 150%;
+    color: $title-color;
+    margin-bottom: 100px;
+  }
+}

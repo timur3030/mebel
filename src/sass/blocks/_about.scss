@@ -1,0 +1,101 @@
+.about {
+  padding-top: 160px;
+  &__title {
+    font-family: "Tenor Sans";
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    color: $title-color;
+    margin-bottom: 0;
+  }
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0;
+    list-style-type: none;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%;
+    color: $subtitle-color;
+    li {
+      position: relative;
+      max-width: 360px;
+      padding-left: 40px;
+      padding-right: 40px;
+      &:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -14px;
+        height: 3px;
+        width: 360px;
+        background-color: #715b4b;
+      }
+    }
+  }
+  &__descr {
+    margin-top: 160px;
+    font-family: "Tenor Sans";
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 150%;
+    color: $title-color;
+  }
+  &__wrapper {
+    border: 1px solid #000;
+    padding: 1px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 250px;
+    grid-auto-rows: 250px;
+    gap: 1px;
+  }
+  &__product {
+    border: 1px solid #000;
+    padding-top: 56px;
+    &-img {
+      width: 100px;
+      margin: 0 auto;
+    }
+    &-name {
+      margin-top: 20px;
+      text-align: center;
+    }
+  }
+  &__family {
+    background-color: #ebeeeb;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    &-img {
+      img {
+        width: 100%;
+      }
+    }
+    &-wrapper {
+      padding: 68px 165px 0 40px;
+    }
+    &-title {
+      font-family: "Tenor Sans";
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 150%;
+      color: #000000;
+      margin-bottom: 0;
+    }
+    &-text {
+      margin-top: 40px;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 150%;
+      color: #000000;
+      margin-bottom: 0;
+    }
+    &-link {
+      margin-top: 52px;
+    }
+  }
+}

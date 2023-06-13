@@ -1,0 +1,62 @@
+.promo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid #000;
+  border-left: none;
+  border-right: none;
+  &__img {
+    img {
+      width: 100%;
+    }
+  }
+  &__wrapper {
+    padding-top: 200px;
+    padding-left: 40px;
+    position: relative;
+  }
+  &__title {
+    font-family: "Tenor Sans";
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    color: $title-color;
+    margin-top: 17px;
+    margin-bottom: 0;
+  }
+  &__subtitle {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: $subtitle-color;
+    margin-bottom: 0;
+  }
+  &__descr {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%;
+    color: $subtitle-color;
+    margin-top: 40px;
+  }
+  &__link {
+    margin-top: 70px;
+  }
+  &__messengers {
+    position: absolute;
+    right: 17%;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    width: 170px;
+    list-style-type: none;
+  }
+  &__messenger {
+    text-align: center;
+    a {
+      display: block;
+      border: 1px solid #715b4b;
+      border-radius: 100%;
+      width: 30px;
+      height: 30px;
+    }
+  }
+}
