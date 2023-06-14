@@ -20,19 +20,9 @@
     line-height: 150%;
     color: $subtitle-color;
     li {
-      position: relative;
       max-width: 360px;
-      padding-left: 40px;
-      padding-right: 40px;
-      &:after {
-        content: "";
-        position: absolute;
-        left: 0;
-        bottom: -14px;
-        height: 3px;
-        width: 360px;
-        background-color: #715b4b;
-      }
+      padding: 0 40px 14px 40px;
+      border-bottom: 3px solid #715b4b;
     }
   }
   &__descr {

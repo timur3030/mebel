@@ -4,7 +4,7 @@
 @import "base/variables";
 // @import "base/mixins";
 
-@import "blocks/media";
+// @import "blocks/media";
 @import "blocks/button";
 @import "blocks/menu";
 @import "blocks/promo";
@@ -13,6 +13,7 @@
 @import "blocks/services";
 @import "blocks/guarantee";
 @import "blocks/footer";
+@import "blocks/media";
 
 * {
   font-family: "Open Sans", sans-serif;
