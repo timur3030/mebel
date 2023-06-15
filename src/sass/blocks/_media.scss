@@ -335,4 +335,68 @@
   .container {
     max-width: 100%;
   }
+  .hamburger {
+    right: 35px;
+  }
+  .menu {
+    nav {
+      width: 250px;
+    }
+  }
+  .promo {
+    &__wrapper {
+      padding: 40px 35px;
+    }
+  }
+  .about {
+    .container {
+      padding: 0 35px;
+    }
+    &__descr {
+      font-size: 36px;
+      line-height: 150%;
+    }
+    &__wrapper {
+      grid-template-rows: repeat(4, 204px);
+    }
+    &__product {
+      padding-top: 30px;
+    }
+    &__family-wrapper {
+      padding-left: 35px;
+      padding-right: 35px;
+    }
+  }
+  .video {
+    &__title {
+      padding: 0 35px;
+    }
+    iframe {
+      height: 250px;
+    }
+  }
+  .services {
+    &__title {
+      padding: 0 35px;
+    }
+    &__text {
+      padding-left: 35px;
+      padding-right: 35px;
+    }
+  }
+  .guarantee {
+    padding: 90px 15px;
+    &__title {
+      font-size: 24px;
+      line-height: 141%;
+    }
+    &__text {
+      font-size: 16px;
+      line-height: 150%;
+    }
+  }
+  .footer {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
 }
